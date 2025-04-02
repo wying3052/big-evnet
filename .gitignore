@@ -1,0 +1,66 @@
+# ============== 通用忽略（所有开发者） ==============
+# 系统文件
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+*.tmp
+
+# 日志文件
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 环境变量（敏感文件）
+.env
+.env.local
+.env.*.local
+
+# ============== 后端（Spring Boot）相关 ==============
+# Java 编译文件
+**/target/
+*.class
+*.jar
+*.war
+*.ear
+
+# IDE 配置（IntelliJ IDEA）
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Maven/Gradle
+**/.gradle/
+**/gradle-wrapper.jar
+**/build/
+**/out/
+
+# ============== 前端（Vue/React）相关 ==============
+# Node.js 依赖
+**/node_modules/
+**/.npm
+**/.yarn
+**/yarn.lock
+**/package-lock.json
+
+# 前端构建输出
+**/dist/
+**/build/
+**/.next/
+**/out/
+
+# VSCode 配置
+.vscode/
+
+# ============== 其他 ==============
+# 测试覆盖率
+**/coverage/
+**/.nyc_output/
+
+# 本地开发配置文件（按需调整）
+**/application.yml
+**/application-local.propertiesb i g - e v e n t - b a c k e n d / s r c / m a i n / r e s o u r c e s / a p p l i c a t i o n . y m l 
+ 
+ 
